@@ -53,7 +53,7 @@ export default function Header() {
       <div className="bg-white py-5">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <PopoverButton className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-            Solutions
+            React Games
             <ChevronDownIcon aria-hidden="true" className="h-5 w-5" />
           </PopoverButton>
         </div>
