@@ -191,8 +191,8 @@ const CountryCapitalMemoryGame = () => {
     } else {
       return (
         <>
-          <span className="text-sm font-bold">{card.content.name}</span>
-          <span className="text-sm mt-2">{card.content.capital}</span>
+          <span className="text-sm font-bold">{card.content.capital}</span>
+          <span className="text-sm mt-2">{card.content.name}</span>
         </>
       );
     }
@@ -206,7 +206,7 @@ const CountryCapitalMemoryGame = () => {
         {cards.map((card, index) => (
           <Card
             key={card.id}
-            className="w-32 h-32 flex flex-col items-center justify-center cursor-pointer text-center"
+            className="w-24 h-24 flex flex-col items-center justify-center cursor-pointer text-center"
             onClick={() => handleCardClick(index)}
           >
             {flippedIndices.includes(index) ||
