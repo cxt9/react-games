@@ -206,7 +206,7 @@ const CountryCapitalMemoryGame = () => {
         {cards.map((card, index) => (
           <Card
             key={card.id}
-            className="w-24 h-24 flex flex-col items-center justify-center cursor-pointer text-center"
+            className="w-20 h-20 flex flex-col items-center justify-center cursor-pointer text-center"
             onClick={() => handleCardClick(index)}
           >
             {flippedIndices.includes(index) ||
