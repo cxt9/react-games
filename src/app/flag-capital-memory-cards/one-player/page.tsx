@@ -221,7 +221,7 @@ const CountryCapitalMemoryGame = () => {
       {gameOver && (
         <div className="mb-4">
           <h2 className="text-xl font-bold">
-            Congratulations! You've completed the game!
+            Congratulations! You have completed the game!
           </h2>
           <p>Total moves: {moves}</p>
         </div>
